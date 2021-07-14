@@ -19,7 +19,7 @@ KeyboardQueue::~KeyboardQueue()
 
 bool KeyboardQueue::HasKeypress()
 {
-	return readPos > -1 && readPos != writePos;
+	return readPos != writePos;
 }
 
 bool KeyboardQueue::Push(uint8_t keypress)
