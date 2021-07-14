@@ -28,6 +28,7 @@ uint8_t NcrKeyCodes::Push(int key)
 	uint8_t convkey = ncr_codes[key];
 	if (convkey == 0)
 	{
+		// Allow for multi-key macros?
 	}
 	else
 	{
